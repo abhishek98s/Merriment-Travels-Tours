@@ -115,10 +115,20 @@ div,
     line-height: 1.5;
 }
 
+.line-height-8 {
+    line-height: 1.8;
+}
+
 .list-style-none {
     list-style-type: none;
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+// for gslight package
+.gslide-media.gslide-video,
+.gslide-media {
+    margin: auto;
 }

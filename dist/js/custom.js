@@ -90,3 +90,9 @@ $('.testimonial-list').slick({
     arrows: true,
     dots: false,
 });
+
+const lightbox = GLightbox({
+    touchNavigation: true,
+    autoplayVideos: true,
+    closeOnOutsideClick: true,
+});

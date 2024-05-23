@@ -1,0 +1,41 @@
+.detail-page {
+    &.page-wrapper {
+        background: $neutral-20;
+    }
+
+    .sc-banner figure {
+        height: 500px;
+    }
+}
+
+.sc-detail-wrapper {
+    max-width: 1060px;
+
+    .duration-wrapper {
+        figure {
+            max-width: 20px;
+        }
+    }
+}
+
+.sc-why-reason {
+    .why-list .item figure {
+        max-width: 20px;
+    }
+}
+
+.sc-cost-info {
+    .info-list .item figure {
+        max-width: 24px;
+    }
+}
+
+.sc-faq {
+    .accordion-button {
+        box-shadow: none;
+
+        &:not(.collapsed) {
+            background-color: $blue-100 !important;
+        }
+    }
+}

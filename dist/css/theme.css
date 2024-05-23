@@ -48,14 +48,26 @@
 }
 
 .color-blue-400 {
-  color: #1A244C;
+  color: #454C68;
 }
 
 .bg-blue-400 {
-  background-color: #1A244C;
+  background-color: #454C68;
 }
 
 .border-blue-400 {
+  border: 1px solid #454C68;
+}
+
+.color-blue-700 {
+  color: #1A244C;
+}
+
+.bg-blue-700 {
+  background-color: #1A244C;
+}
+
+.border-blue-700 {
   border: 1px solid #1A244C;
 }
 
@@ -89,7 +101,6 @@ body {
 img {
   max-width: 100%;
   width: 100%;
-  height: 100%;
 }
 
 /* custom scrollbar  */
@@ -427,6 +438,36 @@ nav .menu .bi-list {
   color: #ffffff;
 }
 
+.detail-page.page-wrapper {
+  background: #F8F8F8;
+}
+.detail-page .sc-banner figure {
+  height: 500px;
+}
+
+.sc-detail-wrapper {
+  max-width: 1060px;
+}
+.sc-detail-wrapper .duration-wrapper figure {
+  max-width: 20px;
+}
+
+.sc-why-reason .why-list .item figure {
+  max-width: 20px;
+}
+
+.sc-cost-info .info-list .item figure {
+  max-width: 24px;
+}
+
+.sc-faq .accordion-button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.sc-faq .accordion-button:not(.collapsed) {
+  background-color: #F0F8FF !important;
+}
+
 .fs-sc-title {
   font-size: 32px;
 }
@@ -526,10 +567,19 @@ div,
   line-height: 1.5;
 }
 
+.line-height-8 {
+  line-height: 1.8;
+}
+
 .list-style-none {
   list-style-type: none;
 }
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.gslide-media.gslide-video,
+.gslide-media {
+  margin: auto;
 }

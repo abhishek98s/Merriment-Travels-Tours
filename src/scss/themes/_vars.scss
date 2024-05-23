@@ -1,5 +1,5 @@
 $neutral-0: #ffffff;
-$neutral-20: #EAEAEA;
+$neutral-20: #F8F8F8;
 $neutral-30-50: #47474780;
 $neutral-100: #E5E6E8;
 $neutral-300: #909090;
@@ -14,7 +14,8 @@ $orange-800: #180B09;
 $blue-100: #F0F8FF;
 $blue-200: #d9e6f2;
 $blue-300: #668199;
-$blue-400: #1A244C;
+$blue-400: #454C68;
+$blue-700: #1A244C;
 $blue-800: #0D1226;
 
 
@@ -36,6 +37,7 @@ $colors-list: (
     "blue-200": $blue-200,
     "blue-300": $blue-300,
     "blue-400": $blue-400,
+    "blue-700": $blue-700,
     "blue-800": $blue-800
 );
 

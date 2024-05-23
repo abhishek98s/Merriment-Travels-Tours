@@ -1,0 +1,124 @@
+// font size
+.fs {
+    &-sc-title {
+        font-size: 32px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 28px;
+        }
+    }
+
+    &-title {
+        font-size: 20px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+        }
+    }
+
+    &-sub-title {
+        font-size: 18px;
+
+        @media screen and (max-width: 1200px) {
+            font-size: 16px;
+        }
+    }
+
+    &-description {
+        font-size: 16px;
+    }
+
+    &-label {
+        font-size: 14px;
+    }
+}
+
+
+// font weight
+.fw {
+    &-medium {
+        font-weight: 500;
+    }
+
+    &-semi-bold {
+        font-weight: 600;
+    }
+}
+
+
+// border-radius
+.b {
+    &-rounded-4 {
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    &-rounded-8 {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    &-rounded-full {
+        border-radius: 1000px;
+        overflow: hidden;
+    }
+}
+
+// Hover Effect
+.hover-zoom {
+    overflow: hidden;
+    transition: transform 0.5s ease;
+
+    img {
+        transition: 0.4s;
+
+        &:hover {
+            scale: 1.1;
+        }
+    }
+}
+
+// button
+.cta-btn {
+    background-color: $yellow-500;
+    color: $blue-800;
+    padding: 12px 12px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: none;
+    transition: .2s;
+
+    &:hover {
+        scale: 1.1;
+        opacity: 1 !important;
+    }
+
+    &:active {
+        scale: 1;
+    }
+}
+
+
+figure {
+    img {
+        object-fit: cover;
+
+        &.contain {
+            object-fit: contain;
+        }
+    }
+}
+
+p,
+div,
+.line-height-5 {
+    line-height: 1.5;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+}

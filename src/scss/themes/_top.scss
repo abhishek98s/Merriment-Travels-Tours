@@ -1,0 +1,175 @@
+.sc-banner {
+    figure {
+        margin-bottom: 0;
+        height: 100vh;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .item {
+        position: relative;
+    }
+
+    .caption {
+        height: 100%;
+        padding: 2rem 3rem 2rem 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+
+        span {
+            color: $neutral-0;
+            font-size: 70px;
+            font-weight: bold;
+
+            &.fn-raleway {
+                font-size: 44px;
+                font-weight: 800;
+
+                small {
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .slick-dots {
+        bottom: 1rem;
+        text-align: left;
+        padding-left: 1rem;
+
+        li {
+            width: 15px;
+            height: 15px;
+            margin: 0 0px;
+
+            button {
+                width: 15px;
+                height: 15px;
+            }
+
+            button:before {
+                color: $neutral-800;
+            }
+        }
+
+        li.slick-active button:before {
+            opacity: 1;
+            font-size: 10px;
+        }
+    }
+}
+
+.sc-special-tour {
+    margin-top: -120px;
+
+    .tour {
+        height: 150px;
+        border: 1px solid $neutral-300;
+        transition: 0.4s;
+
+        &:hover {
+            scale: 1.04;
+        }
+    }
+
+    .slick-slide {
+        margin: 0 20px;
+    }
+
+    .slick-track {
+        padding-block: 20px;
+    }
+
+    .slick-list {
+        margin: 0 auto;
+    }
+}
+
+.sc-featured-tours {
+    .chip-date {
+        padding: 4px 10px;
+        background: hsla(0, 0%, 0%, 0.5);
+        border-radius: 1000px;
+    }
+
+    img {
+        aspect-ratio: 2;
+    }
+}
+
+.sc-testimonials {
+
+    .testimonial-list {
+        max-width: 1023px;
+        padding-inline: 2vw;
+    }
+
+    .testimonial {
+
+        figure {
+            width: 150px;
+            height: 150px;
+
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.sc-upcoming-date {
+    figure img {
+        aspect-ratio: 1.8;
+    }
+
+    .departure-list .item {
+        padding-block: 24px;
+    }
+}
+
+.sc-why {
+
+    .why-item {
+        .image-wrapper {
+            width: 150px;
+            height: 150px;
+
+            figure {
+                max-width: 60px;
+            }
+
+        }
+    }
+}
+
+.sc-trust {
+    .trust-image {
+        max-width: 500px;
+
+        img {
+            aspect-ratio: 3.2;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sc-banner figure {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sc-banner figure {
+        height: 500px;
+    }
+}

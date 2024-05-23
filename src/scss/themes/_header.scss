@@ -1,0 +1,29 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 60px;
+    z-index: 100;
+
+    figure.logo {
+        max-width: 100px;
+        left: 16px;
+        top: 16px;
+    }
+
+    ul {
+        max-width: 500px;
+
+        li a {
+            color: $neutral-0;
+        }
+    }
+
+    .menu {
+        width: 40px;
+        height: 40px;
+
+        .bi-list {
+            font-size: 30px;
+            color: $neutral-0;
+        }
+    }
+}

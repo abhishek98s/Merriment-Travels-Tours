@@ -1,0 +1,54 @@
+$neutral-0: #ffffff;
+$neutral-20: #EAEAEA;
+$neutral-30-50: #47474780;
+$neutral-100: #E5E6E8;
+$neutral-300: #909090;
+$neutral-400: #F0F0F0;
+$neutral-700: #222222;
+$neutral-800: #000000;
+$orange-100: #ECDAD3;
+$orange-120: #DECBC5;
+$orange-150: #B0A8A7;
+$orange-800: #180B09;
+
+$blue-100: #F0F8FF;
+$blue-200: #d9e6f2;
+$blue-300: #668199;
+$blue-400: #1A244C;
+$blue-800: #0D1226;
+
+
+$yellow-500: #FFD544;
+
+$primary-100: #DED0A6;
+$primary-500: #B49B55;
+$primary-500-50: #b49b5592;
+$primary-700: #714915;
+
+/*FONTS*/
+$size: 16px;
+
+$fontEn: 'Poppins', 'Roboto', sans-serif !important;
+
+$colors-list: (
+    "neutral-0": $neutral-0,
+    "blue-100": $blue-100,
+    "blue-200": $blue-200,
+    "blue-300": $blue-300,
+    "blue-400": $blue-400,
+    "blue-800": $blue-800
+);
+
+@each $name, $color in $colors-list {
+    .color-#{$name} {
+        color: $color;
+    }
+
+    .bg-#{$name} {
+        background-color: $color;
+    }
+
+    .border-#{$name} {
+        border: 1px solid $color;
+    }
+}

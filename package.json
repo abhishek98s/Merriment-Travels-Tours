@@ -12,7 +12,9 @@
 		"lib": "lib"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build-css": "node-sass src/scss/theme.scss dist/css/theme.min.css --output-style compressed && node-sass src/scss/theme.scss dist/css/theme.css",
+		"watch-css": "nodemon -e scss -x \"npm run build-css\""
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.13",
@@ -29,5 +31,9 @@
 		"gulp-uglify": "^3.0.2",
 		"sass": "^1.58.3"
 	},
-	"private": true
+	"private": true,
+	"dependencies": {
+		"node-sass": "^9.0.0",
+		"nodemon": "^3.1.0"
+	}
 }
